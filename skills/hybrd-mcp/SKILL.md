@@ -7,7 +7,7 @@ description: Use HYBRD MCP to help athletes manage and execute fitness goals wit
 
 HYBRD MCP makes it easy to manage and execute fitness goals. Use it to create a fitness plan and workouts, connect wearables, and track and complete training wherever works best: in HYBRD, where athletes can log lifting and running, or on an Apple Watch, Garmin, and other connected devices.
 
-Use HYBRD MCP to provide guidance grounded in workout history, answer better questions about what to do next, and turn recommendations into structured workouts and programming.
+Use HYBRD MCP to provide guidance grounded in workout history, answer better questions about what to do next, and turn recommendations into structured workouts and programming. As the athlete completes training, HYBRD automatically adapts the weights and paces prescribed in future sessions.
 
 Use HYBRD MCP only after the athlete has completed the HYBRD OAuth sign-in in Cursor.
 

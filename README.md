@@ -8,7 +8,7 @@ Learn more about HYBRD MCP at [hybrd.com/mcp](https://www.hybrd.com/mcp).
 
 ## Why use it
 
-HYBRD MCP brings your fitness plan, workout history and logger, profile, and wearable connections into one place. It helps you get guidance grounded in your real training, ask better questions about what to do next, and turn recommendations into structured workouts and programming.
+HYBRD MCP brings your fitness plan, workout history and logger, profile, and wearable connections into one place. It helps you get guidance grounded in your real training, ask better questions about what to do next, and turn recommendations into structured workouts and programming. As you complete training, HYBRD automatically adapts the weights and paces prescribed in future sessions.
 
 ## What you can use it for
 
