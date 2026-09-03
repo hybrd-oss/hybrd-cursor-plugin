@@ -2,6 +2,21 @@
 
 Connect Cursor agents to the HYBRD training system and mobile app through HYBRD MCP.
 
+Learn more about HYBRD MCP at [hybrd.com/mcp](https://www.hybrd.com/mcp).
+
+## Why use it
+
+Most AI training conversations end as unstructured advice in a chat. HYBRD MCP connects a Cursor agent to the training system and mobile app where the athlete's approved context and structured workouts live. That lets the agent work from real training context and turn an approved plan into a workout the athlete can use in HYBRD.
+
+## What you can use it for
+
+- Review the connected athlete's approved training context and current plan.
+- Turn an agreed training session into a structured scheduled or completed workout when the live MCP tools support it.
+- Keep training conversations connected to the HYBRD mobile app instead of manually copying workouts out of chat.
+- Verify the connected account before using athlete data, then clearly report any confirmed change.
+
+The live MCP tool catalog and schemas are authoritative: use the tools Cursor discovers for the connected account rather than assuming a fixed capability set.
+
 ## What it includes
 
 - A remote MCP server configuration for `https://mcp.hybrd.com/mcp`.

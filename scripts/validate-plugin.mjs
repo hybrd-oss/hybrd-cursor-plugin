@@ -10,7 +10,7 @@ const assert = (condition, message) => {
 
 const manifest = readJson('.cursor-plugin/plugin.json');
 assert(manifest.name === 'hybrd', 'Plugin name must be hybrd.');
-assert(manifest.version === '0.1.0', 'Plugin version must be 0.1.0.');
+assert(manifest.version === '1.0.0', 'Plugin version must be 1.0.0.');
 assert(manifest.mcpServers === './mcp.json', 'Manifest must load the root MCP configuration.');
 assert(manifest.skills === './skills', 'Manifest must load the HYBRD skill directory.');
 assert(manifest.commands === './commands', 'Manifest must load the connect command directory.');
