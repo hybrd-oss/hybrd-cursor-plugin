@@ -2,19 +2,19 @@
 
 [![CI](https://github.com/hybrd-oss/hybrd-cursor-plugin/actions/workflows/validate.yml/badge.svg)](https://github.com/hybrd-oss/hybrd-cursor-plugin/actions/workflows/validate.yml)
 
-Connect Cursor agents to the HYBRD training system and mobile app through HYBRD MCP.
+Connect Cursor to HYBRD through HYBRD MCP to manage and execute your fitness goals.
 
 Learn more about HYBRD MCP at [hybrd.com/mcp](https://www.hybrd.com/mcp).
 
 ## Why use it
 
-Most AI training conversations end as unstructured advice in a chat. HYBRD MCP connects a Cursor agent to the training system and mobile app where the athlete's approved context and structured workouts live. That lets the agent work from real training context and turn an approved plan into a workout the athlete can use in HYBRD.
+HYBRD MCP brings your fitness plan, workout history and logger, profile, and wearable connections into one place. It helps you get guidance grounded in your real training, ask better questions about what to do next, and turn recommendations into structured workouts and programming.
 
 ## What you can use it for
 
-- Review the connected athlete's approved training context and current plan.
-- Turn an agreed training session into a structured scheduled or completed workout when the live MCP tools support it.
-- Keep training conversations connected to the HYBRD mobile app instead of manually copying workouts out of chat.
+- Create and manage fitness plans and structured workouts when the live MCP tools support it.
+- Use workout history, logging, and wearable context to make training decisions.
+- Track lifting and running in HYBRD, or complete workouts on an Apple Watch, Garmin, and other connected devices.
 - Verify the connected account before using athlete data, then clearly report any confirmed change.
 
 The live MCP tool catalog and schemas are authoritative: use the tools Cursor discovers for the connected account rather than assuming a fixed capability set.
@@ -31,7 +31,7 @@ HYBRD MCP grants your agent profile and workout read/write access. Integration r
 
 Once this plugin is available in Cursor Marketplace, open **Customize**, find **HYBRD**, and install it at user or project scope. Enable the HYBRD MCP server, complete the HYBRD OAuth sign-in in your browser, then run `/connect-hybrd`.
 
-Sign in with the same account you use in the HYBRD mobile app. Cursor and HYBRD use OAuth; this plugin never stores an API key or your HYBRD password.
+Sign in to HYBRD during connection to create or access your account. The iPhone app is not required.
 
 ## Verify
 
@@ -56,7 +56,6 @@ npm run validate
 
 ## Safety
 
-- Do not ask for, store, or type an athlete's HYBRD password.
 - Treat live MCP tool discovery and schemas as the source of truth.
 - Before changing a workout, profile fact, or benchmark, summarize the change and obtain confirmation in the current conversation.
 - Use only the signed-in athlete's HYBRD data.

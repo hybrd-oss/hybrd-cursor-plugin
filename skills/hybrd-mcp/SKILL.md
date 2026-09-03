@@ -1,9 +1,13 @@
 ---
 name: hybrd-mcp
-description: Use HYBRD MCP to work with an athlete's approved training profile and workouts.
+description: Use HYBRD MCP to help athletes manage and execute fitness goals with connected training context.
 ---
 
 # HYBRD MCP
+
+HYBRD MCP makes it easy to manage and execute fitness goals. Use it to create a fitness plan and workouts, connect wearables, and track and complete training wherever works best: in HYBRD, where athletes can log lifting and running, or on an Apple Watch, Garmin, and other connected devices.
+
+Use HYBRD MCP to provide guidance grounded in workout history, answer better questions about what to do next, and turn recommendations into structured workouts and programming.
 
 Use HYBRD MCP only after the athlete has completed the HYBRD OAuth sign-in in Cursor.
 
@@ -11,7 +15,7 @@ Use HYBRD MCP only after the athlete has completed the HYBRD OAuth sign-in in Cu
 
 - Verify the connection with `get_account` before saying HYBRD is connected or using athlete data.
 - HYBRD MCP grants your agent profile and workout read/write access. Integration read/write access is coming soon.
-- Never ask for, store, or type an athlete's HYBRD password. The athlete signs in on a HYBRD-hosted OAuth page.
+- Sign-in happens on a HYBRD-hosted OAuth page and creates or accesses the athlete's HYBRD account. The iPhone app is not required.
 - If HYBRD tools are unavailable after sign-in, ask the athlete to reconnect or reload Cursor, then verify with `get_account`.
 
 ## Safe tool use
