@@ -1,5 +1,7 @@
 # HYBRD Cursor Plugin
 
+[![CI](https://github.com/hybrd-oss/hybrd-cursor-plugin/actions/workflows/validate.yml/badge.svg)](https://github.com/hybrd-oss/hybrd-cursor-plugin/actions/workflows/validate.yml)
+
 Connect Cursor agents to the HYBRD training system and mobile app through HYBRD MCP.
 
 Learn more about HYBRD MCP at [hybrd.com/mcp](https://www.hybrd.com/mcp).
